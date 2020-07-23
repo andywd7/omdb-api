@@ -84,17 +84,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.movie,
-.summary {
-  padding-top: 50px !important;
-}
-
-@media (max-width: 568px) {
-  .movie,
-  .summary {
-    padding-top: 10px !important;
-  }
-}
-</style>

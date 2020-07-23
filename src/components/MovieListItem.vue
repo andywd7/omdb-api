@@ -1,6 +1,6 @@
 <template>
   <div
-    class="card mb-3"
+    class="card card-result mb-3"
     @click="viewMovie(data.imdbID, data.Type)"
   >
     <img
@@ -53,3 +53,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.card-result:hover {
+  cursor: pointer;
+}
+</style>
